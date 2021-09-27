@@ -1,0 +1,3 @@
+
+var d = require("AAAwrong");
+return d.get();

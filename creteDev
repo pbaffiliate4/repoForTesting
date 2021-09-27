@@ -1,0 +1,22 @@
+
+
+var xxx = require("device");
+
+var params = {
+    "id" : "AB825CE1520F",
+    "password" : "1a2afef9b19c975b429a92ec22e873c8",
+    "name" : "deviceA",
+    "level" : 9.8,
+    "description" : "IoT door monitoring sensor.",
+    "firmwareVersion" : "v1.0.972",
+    "location" : "48.8580,2.2951",
+    "meta.types" : {
+        "description" : "text",
+        "level" : "numeric",
+        "firmwareVersion" : "string",
+        "location" : "geospatial"
+    }
+};
+
+return xxx.save(params);
+

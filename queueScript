@@ -1,0 +1,4 @@
+//return sendMail("mr.saikaly@gmail.com", "wissam" , "test message");
+
+
+return apsdb.callApi("QueueScript", {"apsdb.scriptName":"wissam"}, null)

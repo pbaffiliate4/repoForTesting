@@ -1,0 +1,5 @@
+var mqtt = require("mqtt");
+var myMqtt = mqtt.getInstance("mqtt://bridges-test.scriptr.io", {"qos": 1.0});
+var res = myMqtt.publish("topic", "ho ho ho!", {"retained": true});
+myMqtt.close();
+return res;
