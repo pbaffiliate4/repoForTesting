@@ -1,0 +1,2 @@
+var x = require("caroone");
+return x;
