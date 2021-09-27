@@ -1,0 +1,4 @@
+var params = {
+  "apsdb.scriptName": "ticket-839/test2"
+};
+return apsdb.callApi("QueueScript", params , null);
