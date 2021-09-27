@@ -1,0 +1,40 @@
+var pubsub = require("pubsub");
+var  t = pubsub.getInstance("batata");
+
+return t.publish("hellooo");
+
+return "hello from soofa";
+
+let x;
+x =1;
+var arraybuffer = request.files.test[0].content		
+            /* convert data to binary string */
+            var data = new Uint8Array(arraybuffer);
+return data.length
+            var arr = new Array();
+            for (var i = 0; i != data.length; ++i) arr[i] = String.fromCharCode(data[i]);
+            var bstr = arr.join("");
+return bstr
+            /* Call XLSX */
+            var workbook = XLSX.read(bstr, {
+                type: "binary"
+            });
+
+            /* DO SOMETHING WITH workbook HERE */
+            var first_sheet_name = workbook.SheetNames[0];
+            /* Get worksheet */
+            var worksheet = workbook.Sheets[first_sheet_name];
+            console.log(XLSX.utils.sheet_to_json(worksheet, {
+                raw: true
+            }));
+
+
+
+var logTest = require("log");
+		logTest.setLevel("error");
+		logTest.error("this is to test the logging: error");
+		logTest.warn("this is to test the logging: warn");
+		logTest.info("this is to test the logging: info");
+		logTest.debug("this is to test the logging: debug");	
+		
+               return logTest.color;

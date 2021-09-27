@@ -1,0 +1,8 @@
+var mqtt = require("mqtt");
+for(var i = 0 ; i < 20; i++){
+var options = {"id": "test"};
+var myMqtt = mqtt.getInstance("tcp://broker.hivemq.com:1883", options);
+myMqtt.publish("whatever", "pst");
+
+  }
+myMqtt.close();

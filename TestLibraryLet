@@ -1,0 +1,2 @@
+var letLibrary = require("TestDeploymentES6");
+return letLibrary.callLetFunction(5);

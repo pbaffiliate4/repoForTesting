@@ -1,0 +1,7 @@
+var document = require("document");
+return document.save({
+    // set the document key
+    "key": "myCountryDocumentKey",
+    // add a field containing a string value called name
+    "name": "USA2"
+})

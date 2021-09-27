@@ -1,0 +1,2 @@
+var mqtt = require("mqtt").getInstance("broker.hivemq.com", {"qos": 2});
+return mqtt.publish("testTopic", "testMessage00000", {"retained": "false"});

@@ -1,0 +1,2 @@
+storage.global.env3.testfield3="testvalue";
+return storage.global.env3;
